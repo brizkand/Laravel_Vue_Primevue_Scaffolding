@@ -235,5 +235,7 @@ app.use(PrimeVue, { ripple: true });
 //theme
 import "primevue/resources/themes/bootstrap4-dark-blue/theme.css";
 
+import 'primeicons/primeicons.css';
+
 
 app.mount("#app")
