@@ -233,8 +233,11 @@ app.use(DialogService)
 app.use(PrimeVue, { ripple: true });
 
 //theme
-import "primevue/resources/themes/bootstrap4-dark-blue/theme.css";
-import 'primeicons/primeicons.css';
+//import "primevue/resources/themes/bootstrap4-dark-blue/theme.css";
+//import 'primeicons/primeicons.css';
+
+// Custom CSS
+//import '../sass/style.scss';
 
 
 app.mount("#app")
